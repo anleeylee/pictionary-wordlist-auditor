@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-10-12T21:06:23+00:00",
+  "tool": "pictionary-wordlist-auditor",
+  "libraries": 2,
+  "total_entries": 29,
+  "summary": {
+    "duplicates": 1,
+    "brands": 1,
+    "sensitive": 1,
+    "length": 2,
+    "difficulty": 5
+  },
+  "per_library": [
+    {
+      "path": "examples\\libs\\space.json",
+      "theme": "space",
+      "entries": 20,
+      "checks": {
+        "duplicates": "pass",
+        "brands": "pass",
+        "sensitive": "pass",
+        "length": "pass",
+        "difficulty": "pass"
+      },
+      "stats": {},
+      "issues": []
+    },
+    {
+      "path": "examples\\libs\\with-issues.json",
+      "theme": "with-issues",
+      "entries": 9,
+      "checks": {
+        "duplicates": "fail",
+        "brands": "fail",
+        "sensitive": "fail",
+        "length": "fail",
+        "difficulty": "warn"
+      },
+      "stats": {
+        "duplicates": 1,
+        "brands": 1,
+        "sensitive": 1,
+        "length": 2,
+        "difficulty": 5
+      },
+      "issues": [
+        [
+          "duplicates",
+          1,
+          "cat",
+          "duplicate of 'Cat'"
+        ],
+        [
+          "brands",
+          2,
+          "Frisbee",
+          "third-party trademark"
+        ],
+        [
+          "sensitive",
+          3,
+          "Beer Bottle",
+          "inappropriate for family play"
+        ],
+        [
+          "length",
+          4,
+          "X",
+          "too short (1 chars < 2)"
+        ],
+        [
+          "length",
+          5,
+          "The extraordinarily complicated geopolitical phenomenon known as the butterfly effect in modern science",
+          "too long (103 chars > 40)"
+        ],
+        [
+          "difficulty",
+          2,
+          "Frisbee",
+          "stored 'easy' vs heuristic 'medium'"
+        ],
+        [
+          "difficulty",
+          5,
+          "The extraordinarily complicated geopolitical phenomenon known as the butterfly effect in modern science",
+          "stored 'easy' vs heuristic 'hard'"
+        ],
+        [
+          "difficulty",
+          6,
+          "Moon",
+          "stored 'hard' vs heuristic 'easy'"
+        ],
+        [
+          "difficulty",
+          7,
+          "Pizza",
+          "stored 'hard' vs heuristic 'easy'"
+        ],
+        [
+          "difficulty",
+          8,
+          "Asteroid Belt",
+          "unknown difficulty 'weird'"
+        ]
+      ]
+    }
+  ],
+  "cross_library_duplicates": [
+    {
+      "prompt": "moon",
+      "libraries": [
+        "examples\\libs\\space.json",
+        "examples\\libs\\with-issues.json"
+      ]
+    }
+  ],
+  "verdict": "fail"
+}

@@ -1,0 +1,15 @@
+{
+  "theme": "with-issues",
+  "title": "Library with deliberate issues (demo)",
+  "entries": [
+    {"prompt": "Cat", "category": "Animals", "difficulty": "easy"},
+    {"prompt": "cat", "category": "Animals", "difficulty": "easy"},
+    {"prompt": "Frisbee", "category": "Objects", "difficulty": "easy"},
+    {"prompt": "Beer Bottle", "category": "Objects", "difficulty": "medium"},
+    {"prompt": "X", "category": "Objects", "difficulty": "easy"},
+    {"prompt": "The extraordinarily complicated geopolitical phenomenon known as the butterfly effect in modern science", "category": "Abstract", "difficulty": "easy"},
+    {"prompt": "Moon", "category": "Nature", "difficulty": "hard"},
+    {"prompt": "Pizza", "category": "Food", "difficulty": "hard"},
+    {"prompt": "Asteroid Belt", "category": "Nature", "difficulty": "weird"}
+  ]
+}

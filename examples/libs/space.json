@@ -1,0 +1,26 @@
+{
+  "theme": "space",
+  "title": "Space",
+  "entries": [
+    {"prompt": "Moon", "category": "Nature", "difficulty": "easy"},
+    {"prompt": "Sun", "category": "Nature", "difficulty": "easy"},
+    {"prompt": "Star", "category": "Nature", "difficulty": "easy"},
+    {"prompt": "Comet", "category": "Nature", "difficulty": "easy"},
+    {"prompt": "Galaxy", "category": "Nature", "difficulty": "easy"},
+    {"prompt": "Solar Eclipse", "category": "Nature", "difficulty": "medium"},
+    {"prompt": "Black Hole", "category": "Nature", "difficulty": "medium"},
+    {"prompt": "Rocket", "category": "Objects", "difficulty": "easy"},
+    {"prompt": "Satellite", "category": "Objects", "difficulty": "medium"},
+    {"prompt": "Telescope", "category": "Objects", "difficulty": "medium"},
+    {"prompt": "Lunar Rover", "category": "Objects", "difficulty": "medium"},
+    {"prompt": "Space Station", "category": "Objects", "difficulty": "medium"},
+    {"prompt": "Astronaut", "category": "People", "difficulty": "medium"},
+    {"prompt": "Cosmonaut", "category": "People", "difficulty": "medium"},
+    {"prompt": "Mission Control", "category": "People", "difficulty": "medium"},
+    {"prompt": "Launch", "category": "Actions", "difficulty": "easy"},
+    {"prompt": "Orbit", "category": "Actions", "difficulty": "easy"},
+    {"prompt": "Zero Gravity", "category": "Abstract", "difficulty": "medium"},
+    {"prompt": "Light Year", "category": "Abstract", "difficulty": "medium"},
+    {"prompt": "Time Dilation", "category": "Abstract", "difficulty": "medium"}
+  ]
+}
